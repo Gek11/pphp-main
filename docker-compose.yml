@@ -7,7 +7,7 @@ services:
       dockerfile: docker/php/Dockerfile
     volumes:
       - .:/var/www/html
-    container_name: php-app
+    container_name: php
 
   nginx:
     image: nginx:alpine
